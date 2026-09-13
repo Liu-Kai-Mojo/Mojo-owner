@@ -1,0 +1,9 @@
+/* Mojo final responsive layer: keep the existing header controls, enlarge and lower the centered logo. */
+.auth-page .auth-topbar{position:relative;width:100%;min-height:clamp(172px,28vh,260px);display:grid;grid-template-columns:48px 1fr 48px;align-items:start;}
+.auth-page .auth-topbar .brand-stack{justify-self:center;display:grid;justify-items:center;gap:4px;margin-top:clamp(34px,7vh,74px);width:min(92vw,620px);}
+.auth-page .auth-topbar .auth-logo{display:block;width:clamp(170px,44vw,320px)!important;max-width:92vw!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;margin:0!important;object-fit:contain!important;transform:none!important;}
+.auth-page .auth-topbar .auth-brand-subtitle{margin-top:clamp(8px,1.5vh,16px)!important;max-width:92vw;text-align:center;}
+.auth-page .auth-box{margin-top:0;transform:none;}
+@media (max-width:560px){.auth-page{padding-left:10px;padding-right:10px;}.auth-page .auth-topbar{min-height:clamp(150px,25vh,205px);grid-template-columns:42px 1fr 42px;}.auth-page .auth-topbar .brand-stack{margin-top:clamp(28px,6vh,54px);}.auth-page .auth-topbar .auth-logo{width:clamp(156px,50vw,230px)!important;}.auth-page .auth-topbar .icon-btn{width:40px;height:40px;}.auth-page .auth-topbar .auth-brand-title{font-size:clamp(18px,5vw,25px);}.auth-page .auth-topbar .auth-brand-subtitle{font-size:clamp(8px,2.2vw,11px);letter-spacing:.1em;}}
+@media (max-height:720px) and (max-width:560px){.auth-page .auth-topbar{min-height:142px;}.auth-page .auth-topbar .brand-stack{margin-top:22px;}.auth-page .auth-topbar .auth-logo{width:clamp(145px,43vw,205px)!important;}}
+@media (min-width:900px){.auth-page .auth-topbar .auth-logo{width:clamp(220px,24vw,320px)!important;}}

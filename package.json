@@ -1,0 +1,12 @@
+{
+  "name": "boxoffice-owner-frontend",
+  "private": true,
+  "version": "1.7.0",
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "check": "node scripts/build-pages.mjs"
+  },
+  "engines": {
+    "node": ">=24.19.0"
+  }
+}
