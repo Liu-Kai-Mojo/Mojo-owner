@@ -3,10 +3,9 @@
   "private": true,
   "version": "1.7.0",
   "scripts": {
-    "build": "node scripts/build-pages.mjs",
-    "check": "node scripts/build-pages.mjs"
+    "build": "node scripts/build-pages.mjs owner"
   },
   "engines": {
-    "node": ">=24.19.0"
+    "node": ">=22"
   }
 }
