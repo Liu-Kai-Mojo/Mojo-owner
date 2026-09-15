@@ -1,0 +1,3 @@
+# Cloudflare Pages clean URLs are handled automatically from matching .html files.
+# Keep only the root redirect; do not use 200 rewrite rules here.
+/ /login 302
